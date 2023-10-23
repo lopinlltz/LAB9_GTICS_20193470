@@ -42,7 +42,7 @@ public class PartidoController {
 
         HistorialPartidos historialPartidos = new HistorialPartidos();
         historialPartidos.setPartido(nuevoPartido);
-        historialPartidos.setDeporte(null); 
+        historialPartidos.setDeporte(null);
         historialPartidos.setHoraFecha(null);
         historialPartidosRepository.save(historialPartidos);
 
